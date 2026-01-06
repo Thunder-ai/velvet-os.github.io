@@ -1,40 +1,40 @@
 # Velvet os
 
-![kappa and juniper with velvet](https://github.com/hexdump0815/linux-mainline-on-arm-chromebooks/raw/main/images/kappa-and-juniper-with-velvet.jpg "kappa and juniper with velvet")
+![Kappa and Juniper with VelvetOS](https://github.com/hexdump0815/linux-mainline-on-arm-chromebooks/raw/main/images/kappa-and-juniper-with-velvet.jpg "kappa and juniper with velvet")
 
-running debian on arm64 chromebooks, consoles, tv boxes and other stuff
+Running Debian on arm64 chromebooks, consoles, tv boxes and other stuff.
 
 _Remember. Login: linux / Password: changeme !!!_
 
 ### [Getting started](./first-steps.md)
-_how to boot and install stuff_
+_How to boot and install stuff._
 
 ### [News](./news.md)
-what's new with the framework
+What's new with the framework.
 
-### [Known Issue](./important-information.md)
-(please check them out!)
+### [Known Issues](./important-information.md)
+(Please check them out!)
 
 ### [FAQ](./faq.md)
-_read before opening issues_
+_Read before opening issues_
 
 ### [Images](https://github.com/hexdump0815/imagebuilder/tree/main)
-for specific devices
+For specific devices.
 
 ### [Creating images](./using-the-imagebuilder-framework.md)
-if you want to
+If you want to, usually updating the kernel, attempting a port.
 
 ### [Issue tracker](https://github.com/hexdump0815/imagebuilder/issues)
-for reporting issues
+For reporting issues.
 
 ### [Discussions](https://github.com/hexdump0815/imagebuilder/discussions)
-for other discussions
+For other discussions.
 
 # About the project
 
 _For more details and images look below_
 
-This is a simple framework for building bootable sd card images for various (currently mostly arm based) small computer like devices. It is supposed to run natively, i.e. if you want to build an image for a 32bit arm system you should run it on a 32bit arm system and so on. I started it when I wanted to easily and reproducibly build bootable sd card images for some arm devices for which there are no such images with recent distributions and linux kernels available or do not exist at all. I'm aware of the armbian (https://www.armbian.com/) framework, which has a similar goal and is much more advanced, but I wanted something simpler so that I can easily adjust it for prototyping and I wanted to build everything natively as I do not really have any strong intel machine for cross compiling. If anyone with armbian knowledge and a proper build environment is interested to port over the patches etc. for the few systems not yet supported by armbian to it, that would be more than welcome.
+This is a simple framework for building bootable sd card images for various (currently mostly arm based) small computer-like devices. It is supposed to run natively, i.e. if you want to build an image for a 32bit arm system you should run it on a 32bit arm system and so on. I started it when I wanted to easily and reproducibly build bootable sd card images for some arm devices for which there are no such images with recent distributions and linux kernels available or do not exist at all. I'm aware of the armbian (https://www.armbian.com/) framework, which has a similar goal and is much more advanced, but I wanted something simpler so that I can easily adjust it for prototyping and I wanted to build everything natively as I do not really have any strong intel machine for cross compiling. If anyone with armbian knowledge and a proper build environment is interested to port over the patches etc. for the few systems not yet supported by armbian to it, that would be more than welcome.
 
 Please keep in mind that the intention of those images is to make it easier to get started on, not to provide well supported systems or setups. They are not intended as a fully end user ready distribution - some fine tuning and adjustment will most probably be required  to make them fully working. But at least you do not have to think about how to get some device booting or where to get a working kernel from etc. - as such it should be a very good starting point for anyone with some (or more) linux experience and for anyone wanting to learn more about the system they are using.
 
