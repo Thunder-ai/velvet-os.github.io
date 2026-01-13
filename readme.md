@@ -18,7 +18,7 @@ What's new with the framework.
 ### [FAQ](./faq.md)
 _Read before opening issues._
 
-### [Images](https://github.com/hexdump0815/imagebuilder/tree/main)
+### [Images](./images-master.md)
 For specific devices.
 
 ### [Creating images](./using-the-imagebuilder-framework.md)
