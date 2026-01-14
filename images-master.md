@@ -7,7 +7,7 @@
   - Amlogic GX (gxbb=s905, gxl=s905x/s905w, gxm=s912, g12a=s905x2, g12b=s922x and sm1=s905x3) devices and tv boxes: [Link](https://github.com/velvet-os/imagebuilder/blob/main/systems/amlogic_gx/readme.md)
   - Amlogic M8 (S802, S805 and S812) devices and tv boxes: [Link](https://github.com/velvet-os/imagebuilder/blob/main/systems/amlogic_m8/readme.md)
   
-  ## Chromebooks (ARM):
+  ## Chromebooks (ARM) [Compatibility](./chromebooks/systems/readme.md):
   - Exynos:
     - 5250 32bit "Snow": https://github.com/velvet-os/imagebuilder/blob/main/systems/chromebook_snow/readme.md
     - 5420/5800 32-bit "Peach": https://github.com/velvet-os/imagebuilder/blob/main/systems/chromebook_peach/readme.md
