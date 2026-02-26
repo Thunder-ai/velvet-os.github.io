@@ -12,7 +12,7 @@ A. Yes! You can do that very easily using chrome os recovery image you can get f
 
 _Q. How do i install the image onto chromebook / There is no installer_
 
-A. [look here](./chromebooks/readme.md) (at the bottom), *Make sure to read everything*
+A. [Look here](./chromebooks/readme.md) (at the bottom), *Make sure to read everything*
 
 
 _Q. My desktop is weird, i want different one_
