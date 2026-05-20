@@ -16,9 +16,7 @@ or similar.
 </details>
 
 ## Flashing on Chromebook or Linux:
-Download the image,
-
-using your browser, you can find image for your specific device [here]()
+Download the image, using your browser, you can find image for your specific device [here]()
 
 Find the name.img.gz (it can be skipped if you already know the file location)
 ```
@@ -73,6 +71,6 @@ For simplicity just use [raspberry pi imager](https://www.raspberrypi.com/softwa
 
 ![rpi-imager](./assets/rpi-imager.png)
 
-If you use different software you are on your own, it should work but **do not create and issue about it not working**
+If you use different software you are on your own, it should work but **Do not create an issue about it not working**
 
 _Note. For most you will need to unpack name.img.gz file using archive tool_
