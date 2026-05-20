@@ -161,9 +161,9 @@ rootfs is created and will be used for future builds at
 /compile/local/imagebuilder-aarch64-bookworm-cache - the rootfs for the
 image will then be built at /compile/local/imagebuilder-root
 
-## create the actual bootable image
+## Create the actual bootable image
 
-when this has finished it is time to build the actual bootable disk image
+When this has finished it is time to build the actual bootable disk image
 based on the rootfs just prepared by running:
 
 ```bash
