@@ -1,15 +1,14 @@
-## In order to add chromebook doc
+# In order to add chromebook doc
 
-1. You need to add files inside /doc/{device type}/system/
+1. You need to add files inside:
 
-{system codename}/{device codename}.md (base it on other device doc)
+/doc/{device type}/system/{system codename}/{device codename}.md (base it on other device doc)
+{system codename}/assets/{device codename}.jpg (image of device) (optional)
+Should be no bigger than 200kb.
+No stock images, this might give copyright trouble.
+Only self created images which will be free to be used in the doc repo.
 
-- {system codename}/assets/{device codename}.jpg (image of device) (optional)
-  Should be no bigger than 200kb.
-  No stock images, this might give copyright trouble.
-  Only self created images which will be free to be used in the doc repo.
-
-2. Add entry to:
+1. Add entry to:
 
 /doc/{device type}/system/readme.md
 and
