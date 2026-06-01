@@ -2,11 +2,12 @@
 
 _Important. Simply copying image onto an USB is not a correct way of doing it, so please don't do it and then open issues about it not working._
 
-<details><summary>
+<summary>
 
-### If your USB/SD card was cheap please read this:
+## If your USB/SD card was cheap please read this
 
 </summary>
+<details>
 
 These kinds of devices tend to report fake capacity,
 which might cause issues with system flashed on them.
@@ -18,11 +19,11 @@ or similar.
 
 ## Flashing on Chromebook or Linux:
 
-Download the image, you can find image for your specific device [here](./images-master.md)
+Download the image, you can find image for your specific device [Here, in images-master](./images-master.md)
 
 Find the name.img.gz (it can be skipped if you already know the file location)
 
-```
+```bash
 find / -name *.img.gz 2> /dev/null
 ```
 
@@ -30,25 +31,25 @@ _Note. ```2> /dev/null``` is for avoiding throwing useless errors and can be rem
 
 Then, cd to the directory:
 
-```
+```bash
 cd path/to/dir
 ```
 
 Unpack the image:
 
-```
+```bash
 gunzip name.img.gz
 ```
 
 Find your USB device:
 
-```
+```bash
 lsblk
 ```
 
 _Output:_
 
-```
+```bash
 luk@chluk /mnt $ lsblk
 NAME         MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
 mtdblock0     31:0    0     8M  0 disk 
@@ -67,16 +68,16 @@ _Note. Your partitions might be different._
 
 Flash the image:
 
-```
-sudo dd status=progress if=name.img of=/dev/<target-device>
+```bash
+sudo dd status=progress if=name.img of=/dev/{target-device}
 ```
 
-_Note. Replace <target-device> with your USB name from the step above, Note that it needs to be the sda part, not the sda1 part._
+_Note. Replace {target-device} with your USB name from the step above, Note that it needs to be the sda part, not the sda1 part._
 _Warning. This operation will wipe your SD/USB drive._
 
 Your USB should be ready to go 🎉
 
-_Note. if there is any problem with any command just add sudo before it_
+_Note. if there is any problem with any command just add sudo before it._
 
 ## Flashing on any other system
 

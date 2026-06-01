@@ -4,11 +4,11 @@
 
 You can start by simply [flashing image onto your USB/SD (not just copy!)](./flashing.md)
 
-_Tip. You can find the images [here](../readme.md)_
+_Tip. You can find the images [Here, in images-master](./images-master.md)_
 
 _**Remember.** The default username/password to login is: linux/changeme_
 
-### Installation/Booting:
+## Installation/Booting
 
 - [Chromebooks](./chromebooks/readme.md)
 - [Consoles](./console/readme.md)
@@ -16,12 +16,12 @@ _**Remember.** The default username/password to login is: linux/changeme_
 
 _Tip. After booting there is an onscreen keyboard available via top menu on the login screen and the onboard onscreen keyboard is available in the XFCE session (the four little squares in right part of the menubar)._
 
-### Device specific:
+## Device specific
 
 - [Chromebooks](./chromebooks/systems/readme.md)
 - [Consoles](./console/systems/readme.md)
 
-### Additional documentation:
+## Additional documentation
 
 - [First Boot](./first-boot.md)
 - [After installation](./postinst/readme.md)

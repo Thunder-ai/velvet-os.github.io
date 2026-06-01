@@ -4,7 +4,7 @@ The images are assuming a US keyboard and are setup for English, so one should c
 
 Some commands to set the initial keyboard mapping in an x terminal to run anything with the proper keyboard layout before everything is setup properly:
 
-```
+```bash
 english: setxkbmap us
 french: setxkbmap fr
 german: setxkbmap de
@@ -18,4 +18,4 @@ spanish: setxkbmap es
 
 You might be interested in running ```/scripts/extend-rootfs.sh``` which will extend the rootfs to the end of the disk.
 
-Additional setup instructions can be found [here](./postinst/readme.md)
+Additional setup instructions can be found [Here, in postinstall](./postinst/readme.md)

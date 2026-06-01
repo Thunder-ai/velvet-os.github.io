@@ -2,7 +2,7 @@
 
 Kernel Version: 6.1.51-stb-mt7+
 
-### Features table
+## Features table
 
 ```diff
 Basic
@@ -29,11 +29,11 @@ Other
 - 3D acceleration (only software rendering for now)
 ```
 
-### Notes
+## Notes
 
 - As with many PowerVR GPUs, there exists no fully working linux driver, however, the system works fine without gpu acceleration for basic tasks, such as commiting to this repo.
 - Audio can be a bit funky at times.
 
-# Other
+## Other
 
-- [system notes](https://github.com/hexdump0815/imagebuilder/blob/main/systems/chromebook_oak/readme.md)
+- [System notes](https://github.com/hexdump0815/imagebuilder/blob/main/systems/chromebook_oak/readme.md)
